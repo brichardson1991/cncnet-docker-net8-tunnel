@@ -1,6 +1,6 @@
 ## Warning, this file will no longer get updates due to Rans4ckeR not supporting it. For more up to date versions please use the dotnet9 version: https://github.com/CnCNet/cncnet-docker-dotnetcore-tunnel/blob/main/dockerfile-dotnet9
 
-FROM ubuntu:latest
+FROM ubuntu:24.10
 
 # Install Common Software Properties
 RUN apt-get update && \
